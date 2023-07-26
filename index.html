@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/acordeon.css">
+</head>
+    <body>
+            <div class="main">
+                    <header class="header">
+                        <img src="./img/20211221_114914.jpg" alt="Foto de Perfil" class="photo" id="profile.photo">
+                        <h1 class="title">
+                            Olá, eu sou <br>Caio Guarino</span>
+                        </h1>
+                        <div class="information">
+                            <p class="job" id="profile.job">Assistente de PCP</p>
+                            <p class="location" id="profile.location">São Paulo, Brasil.</p>
+                            <p class="phone">+55 (11) 963693271</p>
+                            <p class="email">gcaio.g16@gmail.com</p>
+                        </div>
+                    </header>
+                    <section class="acordeon open">
+                        <button class="trigger" type="button">Idiomas</button>
+                        <div class="content">
+                            <ul>
+                                <li>Português</li>
+                                <li>Inglês</li>
+                                <li>Espanhol</li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <section class="acordeon open">
+                        <button class="trigger" type="button">Programação e Portifólio</button>
+                        <div class="content">
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScrip</li>
+                                <li>Java</li>
+                                <li>Python</li>
+                                <li>Git e GitHub</li>
+
+                                <h3>Portólio: <a href="https://github.com/GCaioS/Cursos">https://github.com/GCaioS/Cursos</a></h3>
+                            </ul>
+                        </div>
+                    </section>
+            </div>
+            <script src="./acordeon.js"></script>
+            <script src="./api.js"></script>
+            <script src="./main.js"></script>
+    </body>
+</html>
